@@ -3,7 +3,7 @@ import { MongoClient } from "mongodb";
 let db = undefined;
 const dbName = "todo";
 const username = "eia-todo";
-const password = "eia-todo";
+const password = "********";
 
 export function fetchCollection(name) {
     // const collection = fetchDatabase().collection(name);
